@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var a int8
+	a := 4
 
-	fmt.Println(a)
+	fmt.Println(a << 1)
 }
