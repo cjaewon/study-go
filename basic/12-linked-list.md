@@ -1,3 +1,11 @@
+# ⛓️ 링크드 리스트
+![linked-list](https://user-images.githubusercontent.com/32125218/94662161-fb134100-0342-11eb-8e0a-28db316ec2b1.png)
+
+
+**root**: 시작 노드를 가르키는 포인터
+**Node** 링크드 리스트에서 연결되는 요소들
+
+```go
 package main
 
 import (
@@ -67,3 +75,6 @@ func main() {
 
 	PrintNodes(root)
 }
+```
+
+더 성능 향상을 원하면 더블 링크드 리스트를 사용하면 된다.
