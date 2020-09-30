@@ -1,10 +1,10 @@
 package main
 
-// Person : Person Struct
-type Person struct {
-	name string
-	age  int
-}
+import "fmt"
 
 func main() {
+	var a int = 5
+	var p *int = &a
+
+	fmt.Println(p)
 }
