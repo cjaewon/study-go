@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var a int = 5
-	var p *int = &a
+	x := []int{1, 2, 3, 4}
+	y := x
 
-	fmt.Println(p)
+	y[0] = 100
+
+	fmt.Println(x) // [100, 2, 3, 4]
 }
