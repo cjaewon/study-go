@@ -12,7 +12,6 @@ for i := 0; i < 10; i+= { // 10 을 len(a) 라고 해도 됨
   fmt.Println(a[i]) // a[i] => 0
 }
 ```
-
 ## 문자열
 ```go
 hw := "Hello World"
